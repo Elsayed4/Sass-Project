@@ -1,0 +1,60 @@
+.text-center {
+  text-align: center; }
+
+body {
+  box-sizing: border-box; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+#features {
+  margin: 70px 0; }
+  #features .container {
+    max-width: 1200px;
+    margin: 0 auto; }
+    #features .container > p {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px 0;
+      color: #666; }
+    #features .container .features-grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 25px; }
+      #features .container .features-grid-container .card {
+        box-shadow: 0 0 7px #eee;
+        padding: 20px 15px;
+        margin-top: 50px; }
+        #features .container .features-grid-container .card h3 {
+          padding: 20px 0; }
+
+#about .about-grid-container .about-son2 button {
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+  font-weight: 400; }
+
+.bg-about1 {
+  background-color: #eee; }
+
+#about .about-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  #about .about-grid-container .about-son2 {
+    padding: 150px 100px 0 100px; }
+    #about .about-grid-container .about-son2 h2 {
+      font-size: 35px; }
+    #about .about-grid-container .about-son2 p {
+      padding: 30px 0;
+      line-height: 1.4;
+      color: #666; }
+    #about .about-grid-container .about-son2 button {
+      padding: 10px 30px;
+      background-color: blue;
+      color: white;
+      border-color: transparent;
+      border-radius: 5px;
+      font-weight: 400; }
